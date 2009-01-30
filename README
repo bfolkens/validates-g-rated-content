@@ -1,0 +1,1 @@
+A short and simple ActiveRecord validation to make sure "bad words" aren't being used.
