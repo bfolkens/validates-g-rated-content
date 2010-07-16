@@ -1,5 +1,5 @@
 module ValidatesGRatedContent
-  BAD_WORDS_REGEXP = /\b(?:f[uc]{2}k|b[i1]tch|a[s\$]{2}|a[s\$]{2}hole|n[i1]gger|sh[i1]t|cunt|d[i1]ck|pussy|cock|t[i1]ts)\b/i
+  BAD_WORDS_REGEXP = /\b(?:f[uc\*]{2}k(?:ing)|b[i1]tch|a[s\$]{2}(?:hole)|n[i1\*]gger|sh[i1\*]t|cunt|d[i1\*]ck|pussy|cock|t[i1\*]ts|fag(?:got))\b/i
 
   def self.included(base)
     base.extend ClassMethods
